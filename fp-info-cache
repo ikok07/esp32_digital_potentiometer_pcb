@@ -1,4 +1,4 @@
-24626837484422514
+24630291891636893
 78L05
 VREG_78L05
 
@@ -54732,6 +54732,13 @@ Switch_Slide_8.5x3.5mm
 0
 3
 3
+Custom
+XCVR_ESP32-WROOM-32E__4MB_
+
+
+0
+59
+59
 DS1337S_T_R
 SOIC127P600X175-8N
 
@@ -56741,6 +56748,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP32-WROOM-32E__4MB_
+XCVR_ESP32-WROOM-32E__4MB_
+
+
+0
+59
+59
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters

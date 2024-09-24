@@ -493,7 +493,11 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/J_POS"
+        "pattern": "/PD_IN"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/PD_OUT"
       }
     ]
   },
