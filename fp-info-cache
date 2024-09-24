@@ -1,4 +1,4 @@
-24623383082529926
+24625110278500861
 78L05
 VREG_78L05
 
@@ -54712,12 +54712,19 @@ SMD SMT ceramic resonator filter filter hand-soldering
 3
 3
 Custom
+Button Switch SPST-NO
+
+
+0
+0
+0
+Custom
 SK55-DO214AA
 
 
 0
-0
-0
+2
+2
 DS1337S_T_R
 SOIC127P600X175-8N
 
