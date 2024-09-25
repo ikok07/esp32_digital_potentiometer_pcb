@@ -7127,7 +7127,7 @@
 				)
 			)
 		)
-		(property "Value" "360"
+		(property "Value" "470"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7601,7 +7601,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "360"
+	(gr_text "470"
 		(at 133.35 111.125 270)
 		(layer "F.SilkS")
 		(uuid "f93696da-4e31-41ca-a857-7eaeed7b2c58")
