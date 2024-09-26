@@ -485,7 +485,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/VIN"
+        "pattern": "/VCC"
       },
       {
         "netclass": "Power",
