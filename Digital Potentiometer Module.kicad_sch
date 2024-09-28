@@ -5672,7 +5672,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "360"
+		(property "Value" "390"
 			(at 143.51 35.5599 0)
 			(effects
 				(font
@@ -6585,15 +6585,15 @@
 		(dnp no)
 		(uuid "ad28786c-f085-441d-b6b9-61c3a1110fa2")
 		(property "Reference" "J1"
-			(at 24.638 31.75 0)
+			(at 21.844 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Barrel_Jack (>5V)"
-			(at 24.638 34.29 0)
+		(property "Value" "Barrel_Jack"
+			(at 21.844 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
