@@ -3551,6 +3551,12 @@
 		(uuid "687f05da-4c3f-48fd-b755-4568b483dd4f")
 	)
 	(junction
+		(at 231.14 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74f4ac29-1c9c-4f0c-8fdf-06a6300a70e4")
+	)
+	(junction
 		(at 213.36 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3567,6 +3573,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a582f3c3-282d-4a35-a222-36edc13aa226")
+	)
+	(junction
+		(at 213.36 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd1885ec-b0a5-496b-ac6d-254c038569f2")
 	)
 	(junction
 		(at 35.56 76.2)
@@ -3745,6 +3757,16 @@
 			(type default)
 		)
 		(uuid "17d65357-6e38-4f75-afae-47246f9a7872")
+	)
+	(wire
+		(pts
+			(xy 213.36 121.92) (xy 213.36 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e3e093-111a-422e-a9b7-615b038a662b")
 	)
 	(wire
 		(pts
@@ -4048,7 +4070,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 120.65) (xy 213.36 130.81)
+			(xy 213.36 120.65) (xy 213.36 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4178,6 +4200,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 129.54) (xy 231.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1496d2a-fd81-437f-90c2-5ca6a5904d8c")
+	)
+	(wire
+		(pts
 			(xy 110.49 40.64) (xy 121.92 40.64)
 		)
 		(stroke
@@ -4275,6 +4307,16 @@
 			(type default)
 		)
 		(uuid "ec79572a-a51c-437e-abdf-6392e0217bd4")
+	)
+	(wire
+		(pts
+			(xy 213.36 121.92) (xy 231.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb25d7c-3819-4789-bd4f-72f3f7183cc4")
 	)
 	(wire
 		(pts
@@ -5238,7 +5280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:Switch_Slide_8.5x3.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 71.12 25.4 0)
 			(effects
 				(font
@@ -6138,18 +6180,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b48b991-9f33-40e7-9e59-283725b1485a")
 		(property "Reference" "C2"
-			(at 226.441 123.19 90)
+			(at 227.33 135.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10uF"
-			(at 226.441 125.73 90)
+		(property "Value" "22uF"
+			(at 227.33 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,6 +7347,83 @@
 			(project ""
 				(path "/f9605a72-0ec6-49c8-8d90-8c2a65c3e011"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5e2a492-7a64-443a-bf05-f2461a43bddc")
+		(property "Reference" "C4"
+			(at 234.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 234.95 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 232.1052 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 231.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 231.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c524150a-8b80-45f1-a8bd-20eeba30efdd")
+		)
+		(pin "2"
+			(uuid "7a9bc06e-76c0-4a9c-a9c9-5081428a70ea")
+		)
+		(instances
+			(project "Digital Potentiometer Module"
+				(path "/f9605a72-0ec6-49c8-8d90-8c2a65c3e011"
+					(reference "C4")
 					(unit 1)
 				)
 			)
